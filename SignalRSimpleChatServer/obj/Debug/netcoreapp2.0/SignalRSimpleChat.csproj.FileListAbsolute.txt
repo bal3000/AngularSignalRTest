@@ -1,0 +1,11 @@
+C:\Users\BalBains\Documents\angular2\SignalRSimpleChat\SignalRSimpleChatServer\bin\Debug\netcoreapp2.0\SignalRSimpleChat.deps.json
+C:\Users\BalBains\Documents\angular2\SignalRSimpleChat\SignalRSimpleChatServer\bin\Debug\netcoreapp2.0\SignalRSimpleChat.runtimeconfig.json
+C:\Users\BalBains\Documents\angular2\SignalRSimpleChat\SignalRSimpleChatServer\bin\Debug\netcoreapp2.0\SignalRSimpleChat.runtimeconfig.dev.json
+C:\Users\BalBains\Documents\angular2\SignalRSimpleChat\SignalRSimpleChatServer\bin\Debug\netcoreapp2.0\SignalRSimpleChat.dll
+C:\Users\BalBains\Documents\angular2\SignalRSimpleChat\SignalRSimpleChatServer\bin\Debug\netcoreapp2.0\SignalRSimpleChat.pdb
+C:\Users\BalBains\Documents\angular2\SignalRSimpleChat\SignalRSimpleChatServer\obj\Debug\netcoreapp2.0\SignalRSimpleChat.csprojResolveAssemblyReference.cache
+C:\Users\BalBains\Documents\angular2\SignalRSimpleChat\SignalRSimpleChatServer\obj\Debug\netcoreapp2.0\SignalRSimpleChat.csproj.CoreCompileInputs.cache
+C:\Users\BalBains\Documents\angular2\SignalRSimpleChat\SignalRSimpleChatServer\obj\Debug\netcoreapp2.0\SignalRSimpleChat.AssemblyInfoInputs.cache
+C:\Users\BalBains\Documents\angular2\SignalRSimpleChat\SignalRSimpleChatServer\obj\Debug\netcoreapp2.0\SignalRSimpleChat.AssemblyInfo.cs
+C:\Users\BalBains\Documents\angular2\SignalRSimpleChat\SignalRSimpleChatServer\obj\Debug\netcoreapp2.0\SignalRSimpleChat.dll
+C:\Users\BalBains\Documents\angular2\SignalRSimpleChat\SignalRSimpleChatServer\obj\Debug\netcoreapp2.0\SignalRSimpleChat.pdb
