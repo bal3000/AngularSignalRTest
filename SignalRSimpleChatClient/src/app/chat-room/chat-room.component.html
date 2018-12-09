@@ -1,3 +1,19 @@
-<p>
-  chat-room works!
-</p>
+<div class="container" *ngIf="messages.length > 0">
+  <div *ngFor="let message of messages">
+    <span>{{message}}</span>
+  </div>
+</div>
+
+<div class="container">
+  <form (ngSubmit)="sendMessage()" #chatForm="ngForm">
+    <div>
+      <label for="message">Message</label>
+      <input type="text" id="message" name="message" [(ngModel)]="message" required>
+    </div>
+    <button type="submit" id="sendmessage" [disabled]="!chatForm.valid">
+      Send
+    </button>
+  </form>
+</div>
+
+<a href='#' (click)="logOut()">Log out</a>

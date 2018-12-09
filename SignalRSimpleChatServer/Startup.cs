@@ -20,6 +20,7 @@ namespace SignalRSimpleChatServer
                builder
                    .AllowAnyMethod()
                    .AllowAnyHeader()
+                   .AllowCredentials()
                    .AllowAnyOrigin();
            }));
 

@@ -1,3 +1,12 @@
-<p>
-  login-page works!
-</p>
+<div class="container">
+  <h2>Please enter your name</h2>
+  <form (ngSubmit)="setName()" #chatForm="ngForm">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="message" name="name" [(ngModel)]="name" required>
+    </div>
+    <button type="submit" id="setname" [disabled]="!chatForm.valid">
+      Go
+    </button>
+  </form>
+</div>

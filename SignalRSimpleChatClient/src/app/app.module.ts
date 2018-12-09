@@ -1,9 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { ChatRoomComponent } from './chat-room/chat-room.component';
+import { ChatService } from './services/chat.service';
 
 @NgModule({
   declarations: [
@@ -12,9 +14,10 @@ import { ChatRoomComponent } from './chat-room/chat-room.component';
     ChatRoomComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [ChatService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
