@@ -40,7 +40,7 @@ export class ChatRoomComponent implements OnInit, OnDestroy {
     }
   }
 
-  public sendMessage(): void {
+  sendMessage(): void {
     if (this.chatService.hubConnection.state === HubConnectionState.Connected) {
       this.chatService.hubConnection
         .invoke('sendToAll', this.userName, this.message)
