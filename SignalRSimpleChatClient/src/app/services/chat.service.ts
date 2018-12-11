@@ -13,6 +13,6 @@ export class ChatService {
     this.hubConnection = new HubConnectionBuilder().withUrl('http://localhost:5000/chat').build();
 
     return this.hubConnection.start()
-      .catch((err) => console.log('Error while establishing connection :('));
+      .catch((error) => console.log('Error while establishing connection :('));
   }
 }

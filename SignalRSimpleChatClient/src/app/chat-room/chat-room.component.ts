@@ -28,7 +28,7 @@ export class ChatRoomComponent implements OnInit, OnDestroy {
       });
       this.chatService.hubConnection
         .invoke('statusChange', this.userName, 'entered')
-        .catch(err => console.error(err));
+        .catch((error) => console.error(error));
     }
   }
 
@@ -36,7 +36,7 @@ export class ChatRoomComponent implements OnInit, OnDestroy {
     if (this.chatService.hubConnection.state === HubConnectionState.Connected) {
       this.chatService.hubConnection
         .invoke('statusChange', this.userName, 'left')
-        .catch(err => console.error(err));
+        .catch((error) => console.error(error));
     }
   }
 
@@ -45,7 +45,7 @@ export class ChatRoomComponent implements OnInit, OnDestroy {
       this.chatService.hubConnection
         .invoke('sendToAll', this.userName, this.message)
         .then(() => this.message = '')
-        .catch(err => console.error(err));
+        .catch((error) => console.error(error));
     }
   }
 
